@@ -1,7 +1,8 @@
 .main {
-    max-width: 70%;
+    max-width: 800px;
     margin: auto;
     text-align: center;
+    padding: 1em;
 }
 .main article {
     margin-bottom: 3em;
@@ -11,12 +12,12 @@
     padding: 1rem 2rem;
     border: none;
     border-radius: 5px;
-    background-color: greenyellow;
+    background-color: skyblue;
     cursor: pointer;
 }
 .singlejoke {
-    border: 2px solid red;
-    box-shadow: 5px 5px 10px red;
+    border: 2px solid skyblue;
+    box-shadow: 5px 5px 10px skyblue;
     padding: 20px;
 }
 .setdel {
