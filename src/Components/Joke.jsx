@@ -7,7 +7,8 @@ function Jokes() {
         return <h3>Loading...</h3>;
     }
     return <div className="main">
-        <button onClick={rldJokes}>Reload jokes</button>
+        <h1>Joke on You</h1>
+        <button className="btn" onClick={rldJokes}>Reload jokes<span></span></button>
         {jokes.map((joke) => <Single key={joke.id} joke={joke} />)}
     </div>
 }
